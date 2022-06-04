@@ -1,0 +1,376 @@
+
+
+
+.container-charge{
+    margin: 0 auto;
+    max-width: 941px;
+    padding: 0px 20px;
+}
+
+.button-charge{
+    width: 130px;
+    height: 50px;
+    border-radius: 27px;
+    background-color: white;
+    color:$blue;
+    border:1px solid $blue;
+    font-size: 18px;
+    line-height: 26px;
+    
+    &:hover{
+    background-color: $blue;
+    color:white;
+    }
+}
+
+
+.button-bg-blue{
+    background-color: $blue;
+    color:white;
+}
+.button-bg-white{
+    background-color: white;
+    color: $blue;
+}
+
+.top{
+
+    height: 470px;
+    background: #F7F9FD;
+    border-radius: 0px 0px 0px 300px;
+    background-size: auto;
+    position: relative;
+    
+    .charge-bg{
+        height: 559px;
+        background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/banner.svg");
+        background-repeat: no-repeat;
+        background-position: right top;
+        
+    }
+
+    .top-icon{
+        position:absolute;
+            bottom: 23px;
+            right: 48px;
+            position: fixed;
+            z-index: 2;
+    
+        }
+    
+
+    .top-content{
+        margin-top: 116px;
+
+        h1{
+            margin-bottom: 16px;
+        }
+    }
+}
+/*.ball-bg{
+    position: relative;
+
+    .ball-03{
+        width: 361px;
+        position: absolute;
+        left: -267px;
+        top: 406px;
+        z-index: 1;
+    }
+}*/
+.charge{
+  
+    h2{
+        text-align: center;
+        padding-top: 100px;
+    }
+.charge-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+    
+    
+
+   li{
+        padding-right:8px;
+        padding-left: 8px;
+    }
+}
+
+.charge-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+    
+    .charge-item{
+        width: 49%;
+        
+        h3{
+            font-size: 24px;
+            line-height: 35px;
+            font-weight: 700;
+            text-align: center;
+            padding-top:10px ;
+            padding-bottom: 16px;
+            border-bottom: 1px solid #DDDDDD;
+        }
+        p{
+            max-width: 396px;
+            text-align: center;
+            margin: 0 auto;
+            padding: 32px 24px;
+            
+        }
+
+        .charge-card{
+            display: flex;
+            max-width: 90%;
+            justify-content: space-between;
+            margin: 0 auto;
+
+            .charge-card-item{
+                width: 43%;
+                border-radius: 12px;
+                background-color: #F5F5F5;
+
+                h5{
+                    text-align: center;
+                    font-size: 12px;
+                    line-height: 17px;
+                    padding-top: 24px;
+                    padding-bottom: 8px;
+                }
+                .charge-number{
+                    text-align: center;
+                    color:$blue;
+
+                    .charge-number-p, .charge-price-basic,.charge-price-standard{
+                        font-size: 32px;
+                        line-height: 35px;
+                        display: inline-block;
+                        padding: 0px;
+                        padding-bottom: 24px;
+                    }
+                    .text-black{
+                        color:#221E1F;
+                    }
+                    .charge-number-sub{
+                        font-size: 12px;
+                        line-height: 17px;
+                        vertical-align: text-top;
+                        font-weight: 700;
+                    }
+                   
+                }
+               
+                
+               
+                 
+                  
+                }
+            }
+            .equal{
+                p{
+                   
+                font-size: 29px;
+                line-height: 42px;
+                padding:0px 21px;
+                padding-top: 33px;
+                
+                
+                }
+            }
+        
+        .charge-card-list{
+            margin-top: 24px;
+            margin-bottom: 32px;
+            padding-left: 24px;
+            padding-right: 24px;
+            li{
+                margin-bottom: 16px;
+            img{
+                display: inline-block;
+                margin-right: 13px;
+                
+            }
+        }
+        
+        }
+        button{
+            display: block;
+            margin: 0 auto;
+           margin-bottom: 32px;
+        }
+    }
+    }
+}
+.faq{
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    h2{
+        text-align: center;
+        margin-bottom: 46px;
+    }
+
+    .faq-item{
+        
+        li{
+            box-shadow: 0px 2px 10px #00000014;
+            border-radius: 12px;
+            margin-bottom: 16px;
+           
+            .faq-list{
+                box-shadow: 0px 2px 10px #00000014;
+                padding:16px 0px;
+                padding-left: 32px;
+                padding-right: 32px;
+                font-size: 18px;
+                line-height: 28px;
+                border-radius: 12px;
+                margin-bottom: 16px;
+                display: inline-block;
+                display: flex;
+                justify-content: space-between;
+                color:black;
+               }
+           
+            
+        img{
+            display: inline-block;
+            vertical-align: text-top;
+            
+        }
+        .minus{
+            display: none;
+        }
+        .faq-list-text{
+            margin-top: -16px;
+            padding:16px 32px;
+            border-radius: 0px 0px 12px 12px;
+            font-size: 16px;
+            line-height: 32px;
+            color:#747474;
+            display:none;
+            
+        }
+        .text-blue{
+            color:$blue;
+        }
+    }   
+}
+
+}
+
+// main END
+
+
+// RWD START
+
+@media (max-width:992px) {
+    .charge{
+    .charge-content{
+        flex-direction: column;
+
+        .charge-item{
+            width: 100%;
+            margin-bottom: 24px;
+        }
+    }
+    }
+    .faq{
+        margin-top: 36px;
+        margin-bottom: 60px;
+    }
+}
+
+@media (max-width: 768px){
+    .top{
+        height: 470px;
+        .top-content{
+            h1{
+                font-size: 32px;
+                line-height: 46px;
+            }
+        }
+        
+        
+    }
+    .charge{
+        h2{
+            font-size: 28px;
+            line-height: 40px;
+        }
+    .charge-button{
+        overflow-x:  auto;
+        justify-content: flex-start;
+        
+        li{
+            padding-right: 0px;
+
+            
+        }
+    }
+    .charge-content{
+        .charge-item{
+            .charge-card{
+                .charge-card-item{
+                    .charge-number{
+                    .charge-number-p, .charge-price-basic,.charge-price-standard{
+                        padding-bottom: 16px;
+                        font-size: 28px;
+                        line-height: 32px;
+                    }
+                    }
+                }
+            }
+        }
+    }    
+                                  
+}
+.faq{
+    .faq-item{
+        .faq-list{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+}
+
+}
+    
+}
+
+@media (max-width:414px) {
+.top{
+    .charge-bg{
+        background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/banner_sm.svg");
+        background-position: left bottom;
+    }
+}
+    .charge{
+
+        .charge-button{
+            .button-charge{
+                
+                    height: 40px;
+                    width: 90px;
+                    font-size: 16px;
+                    line-height: 24px;
+                
+            }
+        }
+        .charge-content{
+            .charge-item{
+                .charge-card-list{
+                    li{
+                        font-size: 14px;
+                        line-height: 20px;
+                }
+            }
+        }
+    }
+}
+}
+
+
