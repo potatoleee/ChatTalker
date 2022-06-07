@@ -1,5 +1,20 @@
 
-
+.btn-main{
+    width: 136px;
+    height: 49px;
+    border-radius: 27px;
+    background-color: $blue;
+    color:white;
+    border:1px solid $blue;
+    font-size: 18px;
+    line-height: 26px;
+    padding: 0px;
+    transition: 0.3s linear ;
+    &:hover{
+    background-color: white;
+    color:$blue;
+    }
+}
 .bg{
     
     background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/bg_home.svg");
@@ -34,7 +49,6 @@
 }
 
 .topnav {
-   
     display: flex;
     justify-content: space-between;
     a{
@@ -45,9 +59,7 @@
         padding-bottom: 24px;
     }
     
-    
      .btn-red{
-        height: 40px;
         width: 128px;
         border-radius: 22px;
         font-size: 16px;
@@ -436,15 +448,7 @@
     }
     
    
-    .button-blue{
-        width: 136px;
-        height: 49px;
-        color:white;
-        background-color: $blue;
-        border: none;
-        border-radius: 27px;
-        font-size: 18px;
-        transition: 0.5s linear ;
+    .button-footer{
         display: block;
         margin: 0 auto;
         position: absolute;

@@ -16,7 +16,7 @@
     border:1px solid $blue;
     font-size: 18px;
     line-height: 26px;
-    
+    padding: 0px;
     &:hover{
     background-color: $blue;
     color:white;
@@ -129,12 +129,12 @@
 
         .charge-card{
             display: flex;
-            max-width: 90%;
+            max-width: 100%;
             justify-content: space-between;
-            margin: 0 auto;
+            margin: 0px 24px;
 
             .charge-card-item{
-                width: 43%;
+                width: 100%;
                 border-radius: 12px;
                 background-color: #F5F5F5;
 
@@ -167,22 +167,15 @@
                     }
                    
                 }
-               
-                
-               
                  
                   
                 }
             }
             .equal{
                 p{
-                   
                 font-size: 29px;
                 line-height: 42px;
-                padding:0px 21px;
-                padding-top: 33px;
-                
-                
+                padding:33px 21px;
                 }
             }
         
@@ -326,6 +319,7 @@
     .charge-content{
         .charge-item{
             .charge-card{
+                
                 .charge-card-item{
                     .charge-number{
                     .charge-number-p, .charge-price-basic,.charge-price-standard{
@@ -336,6 +330,7 @@
                     }
                 }
             }
+            
         }
     }    
                                   
@@ -366,7 +361,7 @@
             .button-charge{
                 
                     height: 40px;
-                    width: 110px;
+                    width: 90px;
                     font-size: 16px;
                     line-height: 24px;
                 
@@ -374,14 +369,26 @@
         }
         .charge-content{
             .charge-item{
-                .charge-card-list{
-                    li{
-                        font-size: 14px;
-                        line-height: 20px;
-                }
+                .charge-card{
+                    margin: 0 16px;
+                    .equal{
+                        p{
+                            font-size: 24px;
+                             line-height: 25px;
+                            padding: 33px 6px;
+                        }
+                    }
+                
+            }
+            .charge-card-list{
+                padding:0px 16px;
+                li{
+                    font-size: 14px;
+                    line-height: 20px;
             }
         }
     }
+}
 }
 }
 
