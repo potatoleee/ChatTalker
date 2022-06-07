@@ -305,28 +305,7 @@
                 line-height: 26px;
                 margin-top: 16px;
                 margin-bottom: 24px;
-             }
-             
-
-                .button-blue{
-                    width: 136px;
-                    height: 49px;
-                    color:white;
-                    background-color: $blue;
-                    border: none;
-                    border-radius: 27px;
-                    font-size: 18px;
-                    transition: 0.5s linear ;
-                    
-            
-                &:hover{
-                     background-color :$red;
-                   
-                }
-            }  
-                
-
-            
+             }          
         
      }
 }
@@ -652,6 +631,10 @@
                     margin-bottom: 16px;
                 }
                 input{
+                    display: block;
+                    margin: 0 auto;
+                }
+                .btn-main{
                     display: block;
                     margin: 0 auto;
                 }

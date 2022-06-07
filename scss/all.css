@@ -431,22 +431,6 @@ img {
   margin-bottom: 24px;
 }
 
-.feature .feature-text .button-blue {
-  width: 136px;
-  height: 49px;
-  color: white;
-  background-color: #56C4C5;
-  border: none;
-  border-radius: 27px;
-  font-size: 18px;
-  -webkit-transition: 0.5s linear;
-  transition: 0.5s linear;
-}
-
-.feature .feature-text .button-blue:hover {
-  background-color: #FF5D50;
-}
-
 .comment {
   margin-bottom: 100px;
 }
@@ -725,6 +709,10 @@ img {
     margin-bottom: 16px;
   }
   .feature .feature-text input {
+    display: block;
+    margin: 0 auto;
+  }
+  .feature .feature-text .btn-main {
     display: block;
     margin: 0 auto;
   }
