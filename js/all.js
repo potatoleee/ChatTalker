@@ -69,5 +69,6 @@ $('.charge-10').click(function(){
               $('.charge-price-basic').text('1000');
               $('.charge-price-standard').text('6666');
           })   
-       
+
+   
 })

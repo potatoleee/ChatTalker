@@ -68,6 +68,7 @@ body {
   font-family: 'Noto Sans TC', sans-serif;
   font-weight: 400;
   color: #221E1F;
+  line-height: 1.5;
 }
 
 p {
@@ -112,11 +113,16 @@ img {
   position: relative;
 }
 
-.bg .top-icon {
+.bg .top-icon-a .top-icon {
   bottom: 23px;
   right: 48px;
   position: fixed;
   z-index: 2;
+}
+
+.bg .top-icon-a .top-icon:hover {
+  border: 2px solid yellow;
+  border-radius: 50%;
 }
 
 .bg .ball-01 {

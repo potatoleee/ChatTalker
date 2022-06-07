@@ -9,14 +9,21 @@
     height: 768px;
     margin-bottom: 101px;
     position: relative;
-
+    .top-icon-a{
+     
         .top-icon{
             bottom: 23px;
             right: 48px;
             position: fixed;
             z-index: 2;
+            
+            &:hover{
+                border: 2px solid yellow;
+                border-radius: 50%;
+            }
     
         } 
+    }
         .ball-01{
             position: absolute;
             left:-222px;
