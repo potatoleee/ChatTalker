@@ -86,14 +86,13 @@
 .banner{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-top: 30px;
     position: relative;
     
 
 
-.banner-left{
-     padding-top: 158px;
-    
+.banner-left{    
 
      .title-chat{
         font-size: 18px;
@@ -252,7 +251,7 @@
          flex-wrap: wrap;
         li{
             width: 45.5%;
-            height: 280px;
+            padding-bottom: 48px;
             border-radius: 12px;
             margin-bottom: 28px;
         
