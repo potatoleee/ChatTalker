@@ -559,6 +559,96 @@ img {
   padding: 16px 0px;
 }
 
+.comment h2 {
+  margin-bottom: 48px;
+}
+
+.swiper {
+  max-width: 1088px;
+  height: 410px;
+}
+
+.swiper .comment-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.swiper .comment-item li {
+  width: calc((100% - 32px) / 3);
+  padding-right: 32px;
+  padding-left: 32px;
+  border-radius: 12px;
+  position: relative;
+}
+
+.swiper .comment-item li img {
+  width: 80px;
+  border-radius: 50%;
+  position: absolute;
+  top: -56px;
+}
+
+.swiper .comment-item li p {
+  padding-top: 48px;
+  padding-bottom: 24px;
+}
+
+.swiper .comment-item li h4 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  padding-top: 24px;
+  padding-bottom: 8px;
+  border-top: 1px solid #DDDDDD;
+}
+
+.swiper .comment-item li .nameStar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.swiper .comment-item li .nameStar p {
+  padding-top: 0px;
+  padding-bottom: 24px;
+}
+
+.swiper .comment-item li .nameStar .star img {
+  display: inline-block;
+  width: 16.78px;
+  position: static;
+  vertical-align: middle;
+}
+
+.swiper-slide {
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 @media (max-width: 992px) {
   /*.container{
         max-width: 720px;

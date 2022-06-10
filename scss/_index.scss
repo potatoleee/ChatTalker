@@ -1,4 +1,6 @@
 
+
+
 .btn-main{
     width: 136px;
     height: 49px;
@@ -15,6 +17,7 @@
     color:$blue;
     }
 }
+
 .bg{
     
     background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/bg_home.svg");
@@ -447,6 +450,107 @@
         padding: 16px 0px;
     }
 }
+.comment{
+    h2{
+        margin-bottom: 48px;
+    }
+}
+.swiper {
+    max-width: 1088px;
+    height: 410px;
+
+    .comment-item{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        
+        li{
+            // calc 全部-間隔/3.001
+             width:calc((100% - 32px) / 3);
+             padding-right: 32px;
+             padding-left: 32px;
+             
+             border-radius: 12px;
+             position: relative;
+
+             img{
+                width: 80px;
+                border-radius: 50%;
+                position: absolute;
+                top:-56px;
+            }
+
+             p{
+                padding-top: 48px;
+                padding-bottom: 24px;
+                
+                
+            }
+
+             h4{
+                 font-size: 16px;
+                 line-height:24px;
+                 font-weight: 700;
+                 padding-top: 24px;
+                 padding-bottom: 8px;
+                 border-top:1px solid #DDDDDD;
+                
+             }
+
+            
+            .nameStar{
+                display: flex;
+                justify-content: space-between;
+                
+                p{
+                    padding-top: 0px;
+                    padding-bottom: 24px;
+                   
+                    
+                }
+             .star{
+                                
+                 
+             img{
+                 display: inline-block;
+                 width: 16.78px;
+                 position: static;
+                 vertical-align:middle;
+                
+                 
+             }
+            }
+            
+         }
+        }
+             
+     }
+  }
+
+  .swiper-slide {
+    
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+  }
+
 
 
 //main END//
