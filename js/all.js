@@ -15,6 +15,9 @@ $(document).ready(function(){
         $(this).siblings('.faq-list-text').slideToggle();
         $(this).find('.plus').toggle();
         $(this).find('.minus').toggle();
+      //   將上一個已開啟的'faq-list-text
+        $(this).parent().siblings().find('.faq-list-text').slideUp();
+        $(this).parent().siblings().find('.faq-list').removeClass('text-blue');
     })
 
 //方案選擇區
