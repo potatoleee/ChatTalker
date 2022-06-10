@@ -81,7 +81,7 @@ function initSwiper() {
    */
      
    const swiper = new Swiper(".mySwiper", {
-       
+      
      /*  預設要顯示幾個卡片 */
      slidesPerView: 1,
        
@@ -104,7 +104,7 @@ function initSwiper() {
        el: ".swiper-pagination",
        /* 將輪播設定為可以點擊分頁圓點來切換圖片 */
        clickable: true,
-       
+
      }
    });
  }
