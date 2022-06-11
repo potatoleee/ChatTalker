@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -561,6 +562,16 @@ img {
 
 .comment h2 {
   margin-bottom: 48px;
+}
+
+/* 將套件主色改為黃色 */
+:root {
+  --swiper-theme-color: #ffd153;
+}
+
+.swiper-pagination-bullet-active {
+  width: 20px;
+  border-radius: 8px;
 }
 
 .swiper {
