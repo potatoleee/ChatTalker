@@ -1151,8 +1151,8 @@ img {
 
 .faq .faq-list button {
   position: relative;
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   border: none;
   background-color: #fff;
 }
@@ -1241,7 +1241,23 @@ img {
     font-size: 28px;
     line-height: 32px;
   }
-  .faq .faq-item .faq-list {
+  .faq h2 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+  .faq .faq-list button::after {
+    width: 16px;
+    height: 2px;
+  }
+  .faq .faq-list button::before {
+    width: 2px;
+    height: 16px;
+  }
+  .faq .faq-list .active::after {
+    width: 16px;
+    height: 2px;
+  }
+  .faq .faq-list .faq-title {
     font-size: 16px;
     line-height: 24px;
   }
