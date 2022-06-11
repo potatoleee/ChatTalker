@@ -8,18 +8,26 @@ $(document).ready(function(){
          1000);
  });
 
-//faq-list 
-    $('.faq-list').click(function(e){
-        e.preventDefault();
-        $(this).toggleClass('text-blue');
-        $(this).siblings('.faq-list-text').slideToggle();
-        $(this).find('.plus').toggle();
-        $(this).find('.minus').toggle();
-      //   將上一個已開啟的'faq-list-text
-        $(this).parent().siblings().find('.faq-list-text').slideUp();
-        $(this).parent().siblings().find('.faq-list').removeClass('text-blue');
-    })
+//常見問題區
+var button = $(".faq div button");
 
+$('.faq-title').click(function(e){
+   e.preventDefault();
+  //  點擊後標題增加藍色
+   $(this).toggleClass('text-blue');
+  //  切換按鈕的class
+  $(this).find('button').toggleClass('active');
+  // 將隱藏內容打開
+  $(this).siblings('.faq-p').slideToggle();
+  // 將其他的按鈕class移除
+$(this).parent().siblings().find('button').removeClass('active');
+// 將其他展開內容關掉
+  $(this).parent().siblings().find('.faq-p').slideUp();
+  // 移除其他標題藍色
+  $(this).parent().siblings().find('.faq-title').removeClass('text-blue');
+
+
+});
 //方案選擇區
 $('.charge-10').click(function(){
      // 點擊此按鈕後此按鈕加上藍色背景
